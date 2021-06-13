@@ -85,9 +85,9 @@ header {
   
   .nomer1 {
     color: #262F34;
-    background: -webkit-linear-gradient(right, #F34A4A 0, #F34A4A 33.3%, #F1D3BC 33.3%, #F1D3BC 66.6%, #615049 66.6%, #615049) bottom no-repeat;
-    background: -o-linear-gradient(right, #F34A4A 0, #F34A4A 33.3%, #F1D3BC 33.3%, #F1D3BC 66.6%, #615049 66.6%, #615049) bottom no-repeat;
-    background: linear-gradient(to right, #F34A4A 0, #F34A4A 33.3%, #F1D3BC 33.3%, #F1D3BC 66.6%, #615049 66.6%, #615049) bottom no-repeat;
+    background: -webkit-linear-gradient(right, #F34A4A 0, #F34A4A 33.3%, #00fa9a 33.3%, #00fa9a 66.6%, #615049 66.6%, #615049) bottom no-repeat;
+    background: -o-linear-gradient(right, #F34A4A 0, #F34A4A 33.3%, #00fa9a 33.3%, #00fa9a 66.6%, #615049 66.6%, #615049) bottom no-repeat;
+    background: linear-gradient(to right, #F34A4A 0, #F34A4A 33.3%, #00fa9a 33.3%, #00fa9a 66.6%, #615049 66.6%, #615049) bottom no-repeat;
     background-size: 70% 5px;
   }
   
