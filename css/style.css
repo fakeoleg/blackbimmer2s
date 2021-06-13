@@ -1,109 +1,92 @@
-body {background-color: rgb(231, 255, 254) ;}
-
-.menu * {
-    margin: 0;
-    padding: 0;
+body {
+	 background-color: #e7fffe;
 }
-
-header {
-    margin-top: 50px;
+ .menu * {
+	 margin: 0;
+	 padding: 0;
 }
-.menu ul,
-.menu ol {
-    list-style:none;    
+ header {
+	 margin-top: 50px;
 }
-
-.menu ul {
-    display: flex;
-    justify-content: center;
+ .menu ul, .menu ol {
+	 list-style: none;
 }
-
-.menu > ul li a {
-    display: block;
-    background:plum;
-    padding: 15px 30px 15px 40px;
-    font-size: 14px;
-    color: lightgreen;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: all 0.3s ease;
-    font-weight: bold;
+ .menu ul {
+	 display: flex;
+	 justify-content: center;
 }
-
-.menu > ul li {
-    position: relative;
-    border-right: 1px solid  gray;
+ .menu > ul li a {
+	 display: block;
+	 background: plum;
+	 padding: 15px 30px 15px 40px;
+	 font-size: 14px;
+	 color: lightgreen;
+	 text-decoration: none;
+	 text-transform: uppercase;
+	 transition: all 0.3s ease;
+	 font-weight: bold;
 }
-
-.menu > ul li:first-child {
-    border-left: 1px solid gray;
+ .menu > ul li {
+	 position: relative;
+	 border-right: 1px solid gray;
 }
-
-.menu > ul li:last-child {
-    border-right: 1px solid gray;
+ .menu > ul li:first-child {
+	 border-left: 1px solid gray;
 }
-
-.menu li a:hover {
-    background:limegreen;
-    color: black;
-    box-shadow: 1px 5px 10px -5px black;
-    transition: all 0.3s ease;
+ .menu > ul li:last-child {
+	 border-right: 1px solid gray;
 }
-
-.menu li ul{
-    position: absolute;
-    min-width: 150px;
-    display: none;
+ .menu li a:hover {
+	 background: limegreen;
+	 color: black;
+	 box-shadow: 1px 5px 10px -5px black;
+	 transition: all 0.3s ease;
 }
-
-.menu li > ul li{
-    border: 1px solid gray;
-   }
-.menu li > ul li a{
-    padding: 10px;
-    text-transform: none;
-    background: plum;
-   }
-
-.menu li:hover > ul{
-    display: block; 
-   }
-
-   .knopki > a {
-    display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin: 15px 25px;
-    padding: 15px 20px;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
-    transition: 0.4s ease-in-out;
-  }
-  
-  
-  .nomer1 {
-    color: #262F34;
-    background: -webkit-linear-gradient(right, #F34A4A 0, #F34A4A 33.3%, #F1D3BC 33.3%, #F1D3BC 66.6%, #615049 66.6%, #615049) bottom no-repeat;
-    background: -o-linear-gradient(right, #F34A4A 0, #F34A4A 33.3%, #F1D3BC 33.3%, #F1D3BC 66.6%, #615049 66.6%, #615049) bottom no-repeat;
-    background: linear-gradient(to right, #F34A4A 0, #F34A4A 33.3%, #F1D3BC 33.3%, #F1D3BC 66.6%, #615049 66.6%, #615049) bottom no-repeat;
-    background-size: 70% 5px;
-  }
-  
-  .nomer1:hover{
-    background-size: 100% 5px;
-  }
-  
-  .nomer2 {
-    border-radius: 10px;
-    color: #02102c;
-    box-shadow: inset 0 -5px 0 #093c66;
-  }
-  
-  .nomer2:hover {
-    box-shadow: inset 0 -60px 0 #1a6ca3, 2px 2px 3px rgba(0, 0, 0, 0.479);
-    color: #a5dcde;
-  }
-  
-  
+ .menu li ul {
+	 position: absolute;
+	 min-width: 150px;
+	 display: none;
+}
+ .menu li > ul li {
+	 border: 1px solid gray;
+}
+ .menu li > ul li a {
+	 padding: 10px;
+	 text-transform: none;
+	 background: plum;
+}
+ .menu li:hover > ul {
+	 display: block;
+}
+ .knopki > a {
+	 display: inline-block;
+	 text-decoration: none;
+	 text-transform: uppercase;
+	 letter-spacing: 1px;
+	 margin: 15px 25px;
+	 padding: 15px 20px;
+	 font-size: 20px;
+	 font-weight: bold;
+	 font-family: 'Montserrat', sans-serif;
+	 transition: 0.4s ease-in-out;
+}
+ .nomer1 {
+	 color: #262f34;
+	 background: -webkit-linear-gradient(right, #f34a4a 0, #f34a4a 33.3%, #f1d3bc 33.3%, #f1d3bc 66.6%, #615049 66.6%, #615049) bottom no-repeat;
+	 background: -o-linear-gradient(right, #f34a4a 0, #f34a4a 33.3%, #f1d3bc 33.3%, #f1d3bc 66.6%, #615049 66.6%, #615049) bottom no-repeat;
+	 background: linear-gradient(to right, #f34a4a 0, #f34a4a 33.3%, #f1d3bc 33.3%, #f1d3bc 66.6%, #615049 66.6%, #615049) bottom no-repeat;
+	 background-size: 70% 5px;
+}
+ .nomer1:hover {
+	 background-size: 100% 5px;
+}
+ .nomer2 {
+	 border-radius: 10px;
+	 color: #02102c;
+	 box-shadow: inset 0 -5px 0 #093c66;
+}
+ .nomer2:hover {
+	 box-shadow: inset 0 -60px 0 #1a6ca3, 2px 2px 3px rgba(0, 0, 0, 0.479);
+	 color: #a5dcde;
+}
+ 
