@@ -1,107 +1,51 @@
-body {background-color: rgb(231, 255, 254) ;}
-
-.menu * {
-    margin: 0;
-    padding: 0;
-}
-
-header {
-    margin-top: 50px;
-}
-.menu ul,
-.menu ol {
-    list-style:none;    
-}
-
-.menu ul {
-    display: flex;
-    justify-content: center;
-}
-
-.menu > ul li a {
-    display: block;
-    background:plum;
-    padding: 15px 30px 15px 40px;
-    font-size: 14px;
-    color: lightgreen;
-    text-decoration: none;
+.neonText {
+ 
+    color: #fff;
+  }
+  
+  h1 {
+    font-size: 70px;
+    animation: flicker 1.5s infinite alternate;
+  }
+  
+  /* Анимация мерцания */
+  @keyframes flicker {
+     
+    0%, 18%, 22%, 25%, 53%, 57%, 100% {
+  
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #FF2800,
+        0 0 80px #FF2800,
+        0 0 90px #FF2800,
+        0 0 100px #FF2800,
+        0 0 150px #FF2800;
+   
+    }
+   
+    20%, 24%, 55% {        
+        text-shadow: none;
+    }    
+  }
+  
+  
+  /* Дополнительный стиль */
+   
+  .container {
+    margin-top: 45vh;
+  }
+  
+  body {
+    font-size: 18px;
+    font-family: "Helvetica Neue", sans-serif;
+    background-color: #010a01;
+  }  
+  
+  h1 {
+    text-align: center;
     text-transform: uppercase;
-    transition: all 0.3s ease;
-    font-weight: bold;
-}
-
-.menu > ul li {
-    position: relative;
-    border-right: 1px solid  gray;
-}
-
-.menu > ul li:first-child {
-    border-left: 1px solid gray;
-}
-
-.menu > ul li:last-child {
-    border-right: 1px solid gray;
-}
-
-.menu li a:hover {
-    background:limegreen;
-    color: black;
-    box-shadow: 1px 5px 10px -5px black;
-    transition: all 0.3s ease;
-}
-
-.menu li ul{
-    position: absolute;
-    min-width: 150px;
-    display: none;
-}
-
-.menu li > ul li{
-    border: 1px solid gray;
-   }
-.menu li > ul li a{
-    padding: 10px;
-    text-transform: none;
-    background: plum;
-   }
-
-.menu li:hover > ul{
-    display: block; 
-   }
-
-   .knopki > a {
-    display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin: 15px 25px;
-    padding: 15px 20px;
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'Montserrat', sans-serif;
-    transition: 0.4s ease-in-out;
+    font-weight: 400;
   }
-  
-  
-  .nomer1 {
-    color: #262F34;
-    background: -webkit-linear-gradient(right, #F34A4A 0, #F34A4A 33.3%, #00fa9a 33.3%, #00fa9a 66.6%, #615049 66.6%, #615049) bottom no-repeat;
-    background: -o-linear-gradient(right, #F34A4A 0, #F34A4A 33.3%, #00fa9a 33.3%, #00fa9a 66.6%, #615049 66.6%, #615049) bottom no-repeat;
-    background: linear-gradient(to right, #F34A4A 0, #F34A4A 33.3%, #00fa9a 33.3%, #00fa9a 66.6%, #615049 66.6%, #615049) bottom no-repeat;
-    background-size: 70% 5px;
-  }
-  
-  .nomer1:hover{
-    background-size: 100% 5px;
-  }
-  
-  .nomer2 {
-    border-radius: 10px;
-    color: #02102c;
-    box-shadow: inset 0 -5px 0 #093c66;
-  }
-  
-  .nomer2:hover {
-    box-shadow: inset 0 -60px 0 #1a6ca3, 2px 2px 3px rgba(0, 0, 0, 0.479);
-    color: #a5dcde;
-  }
+
